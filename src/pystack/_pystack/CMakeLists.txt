@@ -29,6 +29,7 @@ set(PYSTACK_SOURCES
 nanobind_add_module(
     _pystack
     STABLE_ABI
+    FREE_THREADED
     NB_STATIC
     ${PYSTACK_SOURCES}
 )
